@@ -1,3 +1,15 @@
+/***This program will return the index of the last occurrence of the number in the array 
+
+input:
+5 1
+1 2 3 4 1  searching 1 in the array of 5 elements..
+
+output:
+5
+
+***/
+
+
 #include <iostream>
 using namespace std;
 
