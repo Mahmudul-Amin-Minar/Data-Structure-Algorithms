@@ -1,3 +1,3 @@
-# Data-Structure-Algorithms
+# Data-Structure-Algorithm
 
-<h1 href="https://github.com/kaidul/Data_Structure_and_Algorithms_Library">kaidul</h1>
+<a href="https://github.com/kaidul/Data_Structure_and_Algorithms_Library">jihad</a>
