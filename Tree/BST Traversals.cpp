@@ -59,19 +59,6 @@ void postorder(int index)
     }
 }
 
-int search_bst(int index, int value)
-{
-    if(ary[index] == value){
-        return index;
-    }
-    else if(value >= ary[index]){
-        search_bst(index*2 + 1, value);
-    }
-    else{
-        search_bst(index*2, value);
-    }
-}
-
 int main()
 {
     int value, index=1, num;
@@ -81,19 +68,16 @@ int main()
         create_BST(value, index);
     }
 
-    //printf("\nInorder: ");
-    //inorder(index);
-    //printf("\nPreorder: ");
-    //preorder(index);
-    //printf("\nPostorder: ");
-    //postorder(index);
+    printf("\nInorder: ");
+    inorder(index);
+    printf("\nPreorder: ");
+    preorder(index);
+    printf("\nPostorder: ");
+    postorder(index);
 
     cout<< "\nBST is: ";
 
     for(int i=0; i<30; i++){
         cout << ary[i] << " ";
     }
-    cout << "\n\nInput what you want to search: ";
-    cin >> num;
-    printf("\nIndex: %d ", search_bst(index, num));
 }
